@@ -1,0 +1,17 @@
+I was recently asked a question in one of the interviews of Rubrik for which I am still not sure what will be the right answer. Would love to hear answers from you.
+Earlier I was asked to implement LRU Cache and then was asked to use threads. Since we modify our data structure during both get(key) and put(key, value), I believe both of the functions need to be thread-safe. But what exactly would be the right implementation? (https://leetcode.com/discuss/interview-question/1793756/Rubrik-or-third-round-or-SSE)
+
+Repeated 1:
+Designing an LRU (Least Recently Used) Cache. I was tasked with implementing a data structure that can efficiently store a limited number of items and quickly identify and evict the least recently used item when the cache reaches its capacity.   (https://leetcode.com/discuss/interview-experience/3780644/Algorithm-Round-at-Rubrik-for-Site-Reliability-Engineer)
+
+Repeated 2 :
+* 2nd round - Design Question **
+
+Design a data structure with constant time complexity, not restrictions on the space complexity, It should have the following methods
+insert()
+remove()
+getRandom()
+exists()
+getLRU()
+
+It was expected to write the complete implementation , starting from defining a node or a doubly linkedList.  (https://leetcode.com/discuss/interview-question/1904936/Rubrik-or-Onsite-or-New-Grad-or-Santa-Clara-or-February)
